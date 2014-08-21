@@ -1,0 +1,136 @@
+
+body {
+	font-family: Arial;
+	font-size: 16px;
+	color: #FF9900;
+}
+
+#logo {
+	
+	background-image: url("schultz.gif") ;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: 400px 300px;
+	border: 1px solid black;
+	width: 50%;
+	height: 280px;
+	border-right: 5px solid gray;
+	border-top: 0;
+	border-left: 0;
+	border-bottom: 0;
+}
+
+#addr {
+	display: inline-block;
+	text-align: right;
+	border: 0 1px 0 0 solid black;
+	width: 500px;
+	color: #B00000;
+}
+
+a:link {
+    color: #FF9900;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #FF9900;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FF9900;
+    text-decoration: none;
+}
+
+a:active {
+    color: #FF9900;
+    text-decoration: none;
+}
+
+
+nav {
+	position: absolute;
+	top: 80px;
+	right: 400px;
+}
+
+
+#grid {
+	padding-top: 100px;
+	margin: auto;
+}
+
+
+#grid img {
+	width: 200px;
+	height: 160px;
+	border: 1px solid #FF9900;
+}
+
+
+fieldset {
+	border-radius: 5px;
+	border: 1px solid #C0C0C0;
+	margin-left: 200px;
+}
+
+legend {
+	border: 1px solid #C0C0C0;
+	padding: 7px;
+	border-radius: 1px;
+	text-align: right;
+}
+
+label {
+	float: left;
+	width: 45%;
+	margin-right: 5px;
+	text-align: right;
+}
+
+#email {
+	width: 900px;
+	height: 900px; 
+	margin-top: 100px;
+}
+
+textarea {
+	border: 1px solid #C0C0C0;
+}
+
+.button {
+	border-radius: 1px;
+	color: #C0C0C0;
+	font-size: 15px;
+/*	background-color: rgba(255, 153, 0, 0.1); */
+	background-color: white;
+	width: 580px;
+	height: 37px;
+	border: 1px solid rgba(255, 153, 0, 0.9);
+/*	float: left; */
+	margin: 30px;
+}
+
+input:focus {
+	outline: none;
+
+}
+
+textarea:focus {
+	outline: none;
+}
+
+#vision {
+	font-size: 15px;
+	color: #707070;
+	padding: 60px 100px 100px 100px;
+	border: 1px solid #FF9900;
+	line-height: 40px;
+	letter-spacing: 2px;
+	width: 500px;
+	height: 500px;
+	margin: auto;
+	margin-top:100px;
+/*	font-variant: small-caps; */
+}
