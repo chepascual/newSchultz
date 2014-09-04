@@ -5,6 +5,10 @@ body {
 	color: #FF9900;
 }
 
+#addr, nav {
+	letter-spacing: 9px;
+}
+
 #logo {
 	
 	background-image: url("schultz.gif") ;
@@ -51,8 +55,10 @@ a:active {
 
 nav {
 	position: absolute;
+	//float: right;
 	top: 80px;
-	right: 400px;
+	//width: 40%;
+	left: 600px;
 }
 
 
